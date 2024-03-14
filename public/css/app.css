@@ -1,0 +1,143 @@
+
+
+        .banner {
+            width: 100%;
+            text-align: center;
+            background-color: #d25be5;
+            color: #fff;
+            padding: 10px 0;
+        }
+        .sidebar {
+            width: auto;
+            padding: 20px;
+            background-color: #d25be5;
+            float: left;
+            height: 100vh;
+        }
+        .content {
+            width: 80%;
+            padding: 20px;
+            margin-bottom: 40px;
+
+        }
+
+        ul li {
+            list-style-type: none;
+            width: 90%;
+            font-size: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid aquamarine ;
+            margin-top: 25px;
+            align-items: center;
+            justify-content: center;
+
+            background-color: #f3cab1;
+            text-align: center;
+
+        }
+
+        ul li:hover{
+            background-color: #edf2f7;
+            color: white;
+        }
+
+        a{
+            text-decoration: none;
+            cursor: pointer;
+            color: black;
+            font-size: 100%;
+            font-weight: bold;
+        }
+
+        /*ul li {
+            margin-bottom: 35px;
+
+            !* Espacement entre les éléments de liste *!
+        }*/
+
+        /*a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 150%;
+            padding: 10px;
+            text-align: center;
+            background-color: #472d96;
+            border-radius: 40px;
+            border: 5px solid #b37935
+        }*/
+
+        a:hover {
+            color: #da1212; /* Couleur du texte des liens au survol */
+        }
+
+        /* styles.css */
+.add {
+    text-align: center;
+}
+
+.add form {
+    margin: 0 auto;
+    width: 50%;
+    padding: 15px;
+}
+
+.add table {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.add input[type="number"] {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.add button[type="submit"] {
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 p{
+    color: red;
+}
+
+tr td{
+    font-size: larger;
+
+}
+button  {
+    font-weight: bold;
+    font-size: 80%;
+    color: #ffffff;
+}
+
+td button[type="submit"]{
+    width: 100%;
+    padding: 30px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 6px;
+    background : linear-gradient(135deg,#008080,#80ced6);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+p a{
+    width: 50%;
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+    margin-left: 25px;
+    background-color: indigo;
+    color: white;
+}
+
